@@ -21,6 +21,10 @@
         <!-- BEGINNNG SLIDES ================================== -->
         <section>
           <h1>Intro To HTML/CSS <small>Beginner Workshop</small></h1>
+          <p><small>
+            Press <code>Spacebar</code> for next slide. <br>
+            <code>Esc</code> or '<code>o</code>' for overview.
+          </small></p>
         </section>
         <section>
             <h3><a> There's only one rule.</a></h3>
@@ -35,55 +39,63 @@
           <p> HTML is the language which builds websites. </p>
           <p>It stands for <strong>Hyper Text Markup Language</strong></p>
         </section>
+
         <section>
-          <p>First things first!</p>
-          <h3><a>HTML is <strong>NOT</strong> a programming language.</a></h3>
-          <p>its a markup language.</p>
+          <section>
+            <p>First things first!</p>
+            <h3><a>HTML is <strong>NOT</strong> a programming language.</a></h3>
+            <p>its a markup language.</p>
+
+          </section>
+          <section>
+            <h2>MarkUp VS Programming </h2>
+            <table>
+              <thead>
+                <tr>
+                  <th>Markup Languages</th>
+                  <th>Programming Languages</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="fragment" data-fragment-index="1">Used to control the <em>presentation</em> and <em>structure</em> of the content.</td>
+                  <td class="fragment" data-fragment-index="2">Used to create <em>instructions</em> for machine to accomplish tasks.</td>
+                </tr>
+                <tr>
+                  <td class="fragment" data-fragment-index="3">e.g. HTML, CSS </td>
+                  <td class="fragment" data-fragment-index="3">e.g. Java, C, C++, python</td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
         </section>
+
         <section>
-          <h2>MarkUp VS Programming </h2>
-          <table>
-            <thead>
-              <tr>
-                <th>Markup Languages</th>
-                <th>Programming Languages</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td class="fragment" data-fragment-index="1">Used to control the <em>presentation</em> and <em>structure</em> of the content.</td>
-                <td class="fragment" data-fragment-index="2">Used to create <em>instructions</em> for machine to accomplish tasks.</td>
-              </tr>
-              <tr>
-                <td class="fragment" data-fragment-index="3">e.g. HTML, CSS </td>
-                <td class="fragment" data-fragment-index="3">e.g. Java, C, C++, python</td>
-              </tr>
-            </tbody>
-          </table>
+            <section>
+              <h2>History Of HTML</h2>
+              <ul>
+                <li>Invented by Tim Berners Lee in 1989</li>
+                <li>First website ceated <a href="http://info.cern.ch/hypertext/WWW/TheProject.html">http://info.cern.ch/hypertext/WWW/TheProject.html</a> </li>
+              </ul>
+            </section>
+            <section>
+              <table>
+                <thead>
+                  <tr>
+                    <th>First Website</th>
+                    <th>Modern Day Website</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td> <img src="assets/first.png" alt="First Website"> </td>
+                    <td> <img src="assets/modern.png" alt="Modern Day Website"> </td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
         </section>
-        <section>
-          <h2>History Of HTML</h2>
-          <ul>
-            <li>Invented by Tim Berners Lee in 1989</li>
-            <li>First website ceated <a href="http://info.cern.ch/hypertext/WWW/TheProject.html">http://info.cern.ch/hypertext/WWW/TheProject.html</a> </li>
-          </ul>
-        </section>
-        <section>
-          <table>
-            <thead>
-              <tr>
-                <th>First Website</th>
-                <th>Modern Day Website</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td> <img src="assets/first.png" alt="First Website"> </td>
-                <td> <img src="assets/modern.png" alt="Modern Day Website"> </td>
-              </tr>
-            </tbody>
-          </table>
-        </section>
+
         <section>
             <h3>Must know web terminologies</h3>
             <ul>
@@ -122,12 +134,355 @@
         </section>
 
 
-        <!-- MAIN CONTENT ====================================== -->
+        <!-- ============================= MAIN CONTENT ====================================== -->
         <section>
-          HTML Elements..
+          Basic Folder Structure
+          <pre> <code>
+            |-- css
+            |   |-- style.css
+            |
+            |-- img
+            |   |-- border.jpg
+            |   |-- logo.gif
+            |
+            |-- js
+            |   |-- myscript.js
+            |
+            |-- html (other pages)
+            |   |-- contact.html
+            |   |-- home.html
+            |
+            |-- index.html
+          </code></pre>
         </section>
 
-        <!-- Ending Slides ===================================== -->
+        <section>
+            <h2>HTML Elements & Tags </h2>
+            <p>An HTML element usually consists of a <strong>opening</strong> and a <strong>closing</strong> tag. Lets look at the following example: </p>
+            <img class="stretch" src="assets/element.jpg" alt="html element">
+        </section>
+
+        <section>
+          <!-- basics -->
+          <section>
+            <h3> html basics </h3>
+            <p>
+              <ul>
+                <li>HTML documents start with a <em>document type</em> declaration: <strong>&lt;!DOCTYPE html&gt;</strong></li>
+                <li>all documents must begin with a opening  <strong>&lt;html&gt;</strong> tag and end with a closing <strong>&lt;/html&gt;</strong> tag.</li>
+              </ul>
+
+              <pre><code data-noescape>
+
+              &lt;!DOCTYPE html&gt;
+              &lt;html&gt;
+                  &lt;head&gt;
+
+                  &lt;/head&gt;
+                  &lt;body&gt;
+
+                  &lt;/body&gt;
+              &lt;/html&gt;
+
+              </code></pre>
+            </p>
+          </section>
+
+          <section>
+            <h3> head and body tags </h3>
+          </section>
+
+        </section>
+
+        <!-- forms -->
+        <section>
+          <section>
+            <h4>HTML Forms</h4>
+            <p>Forms on a page allow us to collect data given by the users. </p>
+            <img class="stretch" src="http://designbump.com/wp-content/uploads/2013/10/contact_form_inspiration_025.png?3ec7fb" alt="contact form">
+          </section>
+
+          <section>
+            <p>
+              <h5>Basic elements used in a html form:</h5>
+              <ul>
+                <li>Some kind of input ( usually the <strong>&lt;input&gt;</strong> tag ) </li>
+                <li>A submit button </li>
+              </ul> <br>
+
+            </p>
+            <div style="width:50%; float:left;">
+              <pre>
+                <code>
+    &lt;form&gt;
+      &lt;input type=&quot;text&quot;&gt;
+      &lt;button type=&quot;submit&quot;&gt;&lt;/button&gt;
+    &lt;/form&gt;
+                </code>
+              </pre>
+            </div>
+            <div style="width:50%; float:left;">
+                <small>Preview of the code: </small>
+                <form>
+                  <input type="text" placeholder="Enter your Name."> <br>
+                  <input type="submit">
+                </form>
+            </div>
+          </section>
+
+          <section>
+            <h3>Activity!</h3>
+            <small>Let's try to code the following FORM from scratch.</small>
+            <iframe src="form.html" width="80%" height="350px"></iframe>
+          </section>
+
+          <section>
+            <p>Code for the above form:</p>
+            <pre><code>
+              &lt;form&gt;
+                &lt;fieldset&gt;
+                  &lt;legend&gt; Registration Information &lt;/legend&gt;
+
+                  Username:
+                  &lt;input type=&quot;text&quot; placeholder=&quot;Username&quot;&gt;
+
+                  Password:
+                  &lt;input type=&quot;password&quot; placeholder=&quot;Password&quot;&gt;
+
+                  Your full name:
+                  &lt;input type=&quot;text&quot; placeholder=&quot;Full Name&quot;&gt;
+
+                  Sex:
+                  &lt;input type=&quot;radio&quot; name=&quot;gender&quot;&gt; Male
+                  &lt;input type=&quot;radio&quot; name=&quot;gender&quot;&gt; Female
+
+                  Languages you know:
+                  &lt;input type=&quot;checkbox&quot;&gt; C
+                  &lt;input type=&quot;checkbox&quot;&gt; C++
+                  &lt;input type=&quot;checkbox&quot;&gt; Java
+                  &lt;input type=&quot;checkbox&quot;&gt; python
+
+                  &lt;input type=&quot;submit&quot;&gt;
+                &lt;/fieldset&gt;
+              &lt;/form&gt;
+            </code></pre>
+          </section>
+
+        </section>
+        <!-- other tags -->
+        <section>
+
+          <section>
+            <h5>Some other commonly used HTML tags </h5>
+            <p>1. Heading tags <br>
+              <pre><code>
+                &lt;h1&gt; heading 1 &lt;/h1&gt;
+                &lt;h2&gt; heading 2 &lt;/h2&gt;
+                &lt;h3&gt; heading 3 &lt;/h3&gt;
+                &lt;h4&gt; heading 4 &lt;/h4&gt;
+                &lt;h5&gt; heading 5 &lt;/h5&gt;
+                &lt;h6&gt; heading 6 &lt;/h6&gt;
+              </code></pre>
+            </p>
+            <p>
+              2. Paragraph tags
+              <pre><code>
+                &lt;p&gt; This is a paragraph.&lt;/p&gt;
+              </code></pre>
+            </p>
+          </section>
+          <section>
+            <h4>3. Anchor Tags </h4>
+            <p>
+              HTML anchor tags link an image/text to another website/ document. <br>
+              <pre><code data-trim>
+                &lt;a href=&quot;http://www.hackncs.com&quot;&gt; NCS &lt;/a&gt;
+              </code></pre>
+              Click on the text or image below to go to the link http://www.hackncs.com <br>
+              <a href="http://www.hackncs.com" target="_blank">NCS</a> <br>
+              <a href="http://www.hackncs.com" target="_blank">
+                  <img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xtl1/v/t1.0-1/p160x160/10622937_309548509222455_115224413821752863_n.jpg?oh=22ae073cf3f8fab34fe6a4a746e6ef61&oe=586E4743&__gda__=1483835203_5401f836f11f67f9a53c7a6a0ab5bca9" alt="">
+              </a>
+            </p>
+          </section>
+          <section>
+            <p>
+              4. Image tags
+              <pre><code>
+                &lt;img src=&quot;img/logo.jpg&quot; alt=&quot;Company Logo&quot;&gt;
+              </code></pre>
+            </p>
+            <p>
+              5. HTML Lists
+              <div style="width:50%; float:left;">
+                <pre><code data-noescape>
+                  &lt;ul&gt;
+                    &lt;li&gt;Apple&lt;/li&gt;
+                    &lt;li&gt;Android&lt;/li&gt;
+                  &lt;/ul&gt;
+                  &lt;ol&gt;
+                    &lt;li&gt;Pen&lt;/li&gt;
+                    &lt;li&gt;Pineapple&lt;/li&gt;
+                  &lt;/ol&gt;
+                </code></pre>
+              </div>
+              <div style="width:50%; float:left;">
+                <ul>
+                  <li>Apple</li>
+                  <li>Android</li>
+                </ul>
+                <hr>
+                <ol>
+                  <li>Pen</li>
+                  <li>Pineapple</li>
+                </ol>
+              </div>
+
+            </p>
+          </section>
+
+        </section>
+
+        <!-- ========================= INTRO TO CSS -->
+
+        <section>
+
+          <section>
+            <h2>What is CSS ? </h2>
+            <div style="width:50%; float:left;">
+              <ul>
+                <li>It stands for <b>C</b>ascading <b>S</b>tyle <b>S</b>heets.</li>
+                <li>a style sheet language</li>
+                <li>tells the browser <strong>HOW</strong> your HTML should be displayed </li>
+              </ul>
+            </div>
+            <div style="width:50%; float:left;">
+              <img class="stretch" src="assets/css.jpg" alt="">
+            </div>
+          </section>
+          <section>
+            <h3>Basic CSS Syntax</h3>
+            <img class="stretch" src="http://gdichicago.com/classes/intro-html-css/images/cssrule.png" alt="">
+          </section>
+          <section>
+            <h3>Linking CSS to HTML <small>( the right way! )</small></h3>
+            <p>
+              Using the <strong>&lt;link&gt;</strong> tag. <br>All css rules are written in a seperate css file which can be linked to the HTML page.
+              <pre><code>
+                &lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot;&gt;
+              </code></pre>
+              <code>.css</code> is the extension of CSS files.
+            </p>
+          </section>
+          <section>
+            <h4>Other ways of connecting CSS to HTML:</h4>
+            <p style="text-align:left;">
+              1. Inline: <br>
+              Using the html <strong>style</strong> attribute.
+              <pre><code>
+   &lt;p style=&quot;color:red&quot;&gt;Paragraph.&lt;/p&gt;
+              </code></pre>
+            </p>
+            <p style="text-align:left;">
+              2. Embedded: <br>
+              Using html <code>&lt;style&gt;&lt;/style&gt;</code> tags.
+              <pre><code>
+                &lt;style&gt;
+                  p {
+                    color: red;
+                  }
+                &lt;/style&gt;
+              </code></pre>
+            </p>
+            <em>However, these are not preferred.</em>
+          </section>
+
+        </section>
+
+        <!-- CSS Selectors  -->
+        <section>
+          <section>
+            <h2>CSS Selectors</h2>
+            <p>A CSS selector is the part of a CSS rule set that <strong>targets the content in your HTML</strong> that you want to style.</p>
+            <p>
+              Some basic CSS selectors are:
+              <ul>
+                <li>Type selectors</li>
+                <li>Class selectors</li>
+                <li>ID selectors</li>
+              </ul>
+            </p>
+          </section>
+          <section>
+            <h3>Selector: Type</h3>
+            <p>
+              <ul>
+                <li>targets elements by their element type.</li>
+                <li>will select all elements of a type</li>
+              </ul>
+            </p>
+            <pre><code>
+              // syntax
+              elementname {
+                property: value;
+                property: value;
+              }
+
+              //example
+              a {
+                background: yellow;
+              }
+            </code></pre>
+          </section>
+          <section>
+            <h3>Selector: Class</h3>
+            <p>
+              <ul>
+                <li>targets elements by element’s class attribute value</li>
+                <li>selects a particular group of elements  </li>
+              </ul>
+            </p>
+            <pre><code>
+              // syntax
+              .classname {
+                property: value;
+                property: value;
+              }
+
+              //example
+              .colleges {
+                background: black;
+                font-size:20px;
+              }
+            </code></pre>
+          </section>
+          <section>
+            <h3>Selector: ID</h3>
+            <p>
+              <ul>
+                <li>targets a element by its <code>id</code> attribute</li>
+                <li>selects only one unique element at a time</li>
+              </ul>
+            </p>
+            <pre><code>
+              // syntax
+              #idname {
+                property: value;
+                property: value;
+              }
+
+              // example
+              #jss {
+                background-color: red;
+                font-size:28px;
+              }
+            </code></pre>
+          </section>
+        </section>
+
+        
+
+        <!-- ============================= Ending Slides ===================================== -->
         <section>
             <h3> Whats Next?</h3>
             <p>
