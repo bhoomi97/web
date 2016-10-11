@@ -187,9 +187,48 @@
               </code></pre>
             </p>
           </section>
-
+          <!-- head and body tags -->
           <section>
             <h3> head and body tags </h3>
+            <ul>
+              <li>
+                &lt;head&gt; tag contains all "extra" information about a webpage.
+                  <ul>
+                    <li> meta data</li>
+                    <li>title of the page </li>
+                    <li>css and javascript file references</li>
+                  </ul>
+              </li>
+              <hr>
+              <li>
+                &lt;body&gt; tag contains all the visual content of the page
+                  <ul>
+                    <li>images, paragraphs, links</li>
+                    <li>basically, everything that the user sees on the page goes in the &lt;body&gt; tag</li>
+                  </ul>
+              </li>
+            </ul>
+          </section>
+
+          <section>
+            <small>Let's take a look at an example.</small>
+            <pre><code data-noescape>
+            &lt;!DOCTYPE html&gt;
+            &lt;html&gt;
+              &lt;head&gt;
+
+                &lt;meta charset=&quot;utf-8&quot;&gt;
+
+                &lt;title&gt; My First Website &lt;/title&gt;
+
+              &lt;/head&gt;
+              &lt;body&gt;
+
+                &lt;h1&gt;This is the coolest website ever.&lt;/h1&gt;
+
+              &lt;/body&gt;
+            &lt;/html&gt;
+            </code></pre>
           </section>
 
         </section>
@@ -480,7 +519,32 @@
           </section>
         </section>
 
-        
+        <section>
+          <h3>Commonly used CSS properties:</h3>
+          <p>
+            width, height, color, background, background-color, background-image,
+            font-size, font-style, font-weight, text-align, text-decoration, list-style, border, border-color, margin, padding,
+          </p>
+
+        </section>
+        <section>
+          <h3>CSS Box Model</h3>
+          <div style="width:50%; float:left;text-align:left;">
+            <small>- According to the box model concept, <em>every element on a page is a rectangular box</em> and may have width, height, padding, borders, and margins.</small> <hr>
+            <small>-So, the <strong>total width</strong> of an element is: <br><br>
+              <code> left-margin + left-border + left-padding + width + right-padding + right-border + right-margin </code>
+            </small> <hr>
+            <small>-And, the <strong>total height</strong> of an element is: <br><br>
+              <code> margin-top + border-top + padding-top + height + padding-bottom + border-bottom + margin-bottom </code>
+            </small>
+
+          </div>
+          <div style="width:50%; float:left;">
+            <img class="stretch" src="http://www.codeproject.com/KB/HTML/567385/boxmodel-image.png" alt="Box Model">
+
+          </div>
+
+        </section>
 
         <!-- ============================= Ending Slides ===================================== -->
         <section>
@@ -496,6 +560,8 @@
                 </li>
               </ul>
             </p>
+            <hr>
+            <p><em>Happy Coding! :) </em></p>
         </section>
         <section>
           <h3>Modern Tools</h3>
